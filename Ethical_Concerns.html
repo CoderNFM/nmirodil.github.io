@@ -1,3 +1,5 @@
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +42,19 @@
         h1, p {
             margin: 10px 0;
         }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (divide 9 by 16 = 0.5625) */
+            padding-top: 25px;
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -55,17 +70,19 @@
         </ul>
     </nav>
 
-
     <div class="content-container">
         <h1>Ethical Concerns</h1>
         <p>Nuriddin Mirodilov</p>
         <p>4/15/24</p>
+        <img src="images.png" alt="Image Description">
+    </div>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://developer.apple.com/videos/embed/wwdc2023/10053/" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <p>"The proliferation of malicious apps in app stores raises significant ethical concerns regarding user trust, autonomy, and the responsible handling of personal data. As emphasized by Wolf (2023), "The presence of malicious apps underscores the importance of understanding the risks associated with app usage." This highlights the ethical imperative to prioritize user security and privacy, emphasizing the importance of ethical considerations in app development and distribution. In addition to the ethical considerations surrounding user trust and autonomy, the proliferation of malicious apps also raises broader ethical questions about the societal impact of cybercrime and digital exploitation. Addressing these ethical concerns requires collaborative efforts from stakeholders across the technology industry, government, academia, and civil society to promote ethical app development practices, enhance cybersecurity awareness, and advocate for stronger regulatory safeguards.
 "</p>
-
-    <p><a href="C:\Users\Nuriddin.M\Desktop\CyberSec\GMU Site Project\Nuriddin Mirodilov Malicious Apps in The App Store and How They Are Effecting Our Security - IT104 (1).docx">Research Paper PDF version</a></p>
 
 </body>
 </html>
